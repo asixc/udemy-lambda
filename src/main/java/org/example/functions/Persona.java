@@ -1,5 +1,7 @@
 package org.example.functions;
 
+import java.util.Comparator;
+
 public class Persona {
 
 	private String nombre;
@@ -22,7 +24,7 @@ public class Persona {
 	}
 	
 	public String getApellido2() {
-		return apellido2;
+		return this.apellido2;
 	}
 
 	public void setNombre(String nombre) {
@@ -41,6 +43,5 @@ public class Persona {
 	public String toString() {
 		return "Persona [nombre=" + nombre + ", apellido1=" + apellido1 + ", apellido2=" + apellido2 + "]";
 	}
-	
-	
+
 }

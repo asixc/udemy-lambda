@@ -1,7 +1,6 @@
 package org.example.lambdas;
 
 
-import java.util.Arrays;
 import java.util.stream.IntStream;
 
 /**
